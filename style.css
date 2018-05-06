@@ -1,0 +1,93 @@
+body {
+  background-color: #e0e2db;
+  /* Set margin to 0 pixels on all sides */
+  margin:center;  /* Set font family to be Helvetica or Arial */
+  font-family:Helvetica, Arial, sans-serif;
+  /* Set line height to be 1.5 times larger than default */  
+  line-height:1.5;
+}
+
+header {
+  /* Set text alignment to center */
+  text-align:center;
+}
+
+main {
+  /* Set maximum width to be 800 pixels */
+  max-width: 500px;
+  /* Set margin to be automatically calculated on all sides */
+  margin: auto;
+  /* Set padding to be 0 pixels top & bottom, and 20 pixels left & right */
+  padding:0 20px;
+}
+
+a:link { color: #ec05ad; 
+}
+   
+
+p {
+  /* Set font color to be the hex code 666666 */
+  color:#ec05ad;
+}
+
+.faded {
+  opacity:0.7;
+  /* Set opacity of the text to be 0.7 */
+}
+
+img {
+  /* Set max width to be 100% of the containing element */
+  max-width:90%;
+}
+
+h1 {
+  /* Set border along bottom to be a black solid line 5 pixels thick */
+  border-bottom: black solid 5px;
+
+}
+
+h2 {
+  /* Set font color to be purple (BONUS: try using a hex or rgb code!) */
+  color: purple;
+}
+
+h3 {
+  color: black;
+  size:10px;
+}
+
+footer {
+  /* Set font color to white */
+  color:white;
+  /* Set background color to black */
+  background-color:;
+  /* Set padding on all sides to be 20 pixels */
+  padding:40px;
+  /* Set text alignment to center */
+  text-align:center;
+  /* Set margin on top to be 60 pixels */
+  margin-top:60px;
+}
+
+@media (max-width: 600px) {
+
+  body {
+    margin: center
+    /* Set the background color to be purple */
+    background-color:#191716;
+    /* Set the font color to be white */
+    color: #e6af2e;
+  }
+
+  h2 {
+    color:white;
+  }
+
+  p{
+    color:#e6af2e;
+  }
+  /* Question - did the font color change? If not, why? Let's fix that below */
+
+  /* Where did the H2's go? See if you can fix that too! */
+
+}
