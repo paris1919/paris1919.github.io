@@ -4,7 +4,7 @@ body {
   margin:center;  /* Set font family to be Helvetica or Arial */
   font-family:Helvetica, Arial, sans-serif;
   /* Set line height to be 1.5 times larger than default */  
-  line-height:1.5;
+  line-height:1;
 }
 
 header {
