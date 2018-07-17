@@ -2,9 +2,14 @@ body {
   background-color: #e0e2db;
   /* Set margin to 0 pixels on all sides */
   margin:center;  /* Set font family to be Helvetica or Arial */
+
+  text-align: justify;
+  text-justify: inter-word;
+
   font-family:Helvetica, Arial, sans-serif;
+  font-size: 15px;
   /* Set line height to be 1.5 times larger than default */  
-  line-height:1;
+  line-height:1.1;
 }
 
 header {
@@ -14,7 +19,7 @@ header {
 
 main {
   /* Set maximum width to be 800 pixels */
-  max-width: 900px;
+  max-width: 925px;
   /* Set margin to be automatically calculated on all sides */
   margin: auto;
   /* Set padding to be 0 pixels top & bottom, and 20 pixels left & right */
